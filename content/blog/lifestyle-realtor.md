@@ -1,7 +1,9 @@
 +++
+categories = ["Real Estate"]
 date = 2020-07-16T07:00:00Z
 featured_image = "/uploads/minimaldesk2.jpg"
 meta_description = "sdsdsd"
+tags = []
 title = "Lifestyle Realtor"
 title_tag = "Accessibility - Wallstreet Realty"
 
