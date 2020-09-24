@@ -1,21 +1,16 @@
+{{ $column := .Site.Data.home.column_section.column }}
 <div class="big-section">
     <div class="container">
         <div class="columns">
+            {{ range $column }}
             <div class="column">
-                <div class="inner-column">
-                    <h2 class="title cursive is-3 has-text-centered">Beats by Nkenge</h2>
-                </div>
+                <a href="{{ .link }}">
+                    <div class="inner-column" style="background:url({{ .image }})no-repeat center;background-size:cover">
+                        <h2 class="title cursive is-3 has-text-centered">{{ .heading }}</h2>
+                    </div>
+                </a>
             </div>
-            <div class="column">
-                <div class="inner-column">
-                    <h2 class="title cursive is-3 has-text-centered">The Power of Goal Setting</h2>
-                </div>
-            </div>
-            <div class="column">
-                <div class="inner-column">
-                    <h2 class="title cursive is-3 has-text-centered">Success Tips</h2>
-                </div>
-            </div>
+            {{ end }}
         </div>
     </div>
 </div>

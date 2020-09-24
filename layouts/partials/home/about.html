@@ -1,16 +1,18 @@
+{{ $about := .Site.Data.home.about_section }}
 <div class="about__container pb-6">
     <div class="columns">
-        <div class="column is-4">
+        <div class="column is-5">
            <div class="bg-about" style="background:url(/uploads/konjay.png)no-repeat top;height:80vh;background-size:cover"></div>
         </div>
-        <div class="column is-6">
-            <div class="content mt-6">
-                <h1 class="title is-1 cursive has-text-weight-light">Hi guys! I'm Konjay…</h1>
-                <h2 class="subtitle is-4 is-uppercase mt-4">Winning with Konjay</h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <div class="column is-5">
+            <div class="content container mt-6 pr-6 pl-6 pb-6">
+                {{ if $about.heading }}<h1 class="title is-1 cursive has-text-weight-light">{{ $about.heading }}</h1>{{ end }}
+                {{ if $about.subtitle }}<h2 class="subtitle is-4 is-uppercase mt-4">{{ $about.subtitle }}</h2>{{ end }}
+                {{ if $about.body }}<p>{{ $about.body | markdownify }}</p>{{ end }}
                 <br>
-                <a href="" class="primary-btn">Read More</a>
+                {{ if $about.link }}<a href="{{ $about.link }}" class="primary-btn">{{ $about.link_text }}</a>{{ end }}
             </div>
         </div>
+        <div class="column"></div>
     </div>
 </div>

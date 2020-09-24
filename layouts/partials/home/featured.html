@@ -1,34 +1,17 @@
 <div class="big-section featured__container">
     <div class="container">
         <div class="columns is-variable is-8 featured__wrap">
+            {{ range .Site.Data.home.featured_section.features }}
             <div class="column">
-                <div class="featured">
-                    <div class="featured-border">
-                        <h3 class="title is-3">Title</h3>
+                <a href="{{ .link }}">
+                    <div class="featured" style="background:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),url({{ .image }})no-repeat center;background-size:cover">
+                        <div class="featured-border">
+                            <h3 class="subtitle is-4">{{ .heading }}</h3>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
-            <div class="column">
-                <div class="featured">
-                    <div class="featured-border">
-                        <h3 class="title is-3">Title</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="featured">
-                    <div class="featured-border">
-                        <h3 class="title is-3">Title</h3>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="featured">
-                    <div class="featured-border">
-                        <h3 class="title is-3">Title</h3>
-                    </div>
-                </div>
-            </div>
+            {{ end }}
         </div>
     </div>
 </div>

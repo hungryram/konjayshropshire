@@ -51,15 +51,28 @@ body .content p {
 
 /* NAVBAR */
 
+div.hero-head {
+    background: rgba(255,255,255,0.7);
+}
+
+div .navbar-item img {
+    max-height: 100%;
+}
+
 div.top-bar {
-    background: #FDC6DA;
+    background: #e4c6b0;
     padding: 10px;
 }
 
 /* HERO */
 
 div.hero-container {
-    background: rgba(255,255,255,0.8);
+    background: rgba(241, 241, 241, 0.5);
+    padding: 20px;
+}
+
+div.hero-container div.border {
+    border: 1px solid #f1bb9a;
     padding: 20px;
 }
 
@@ -76,8 +89,13 @@ div.featured__container {
 
 div.featured {
     height: 400px;
+    transition: .3s;
     padding: 12px;
-    background: gray;
+}
+
+div.featured:hover {
+    opacity: .7;
+    transition: .3s;
 }
 
 div.featured-border {
@@ -98,7 +116,6 @@ div.about__container .cursive {
 /* COLUMN */
 
 div.inner-column {
-    background: gray;
     padding: 120px 20px;
 }
 
