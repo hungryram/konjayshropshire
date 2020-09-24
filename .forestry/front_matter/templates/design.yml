@@ -22,5 +22,24 @@ fields:
       maxSize: 1
     label: Favicon
   label: Branding
+- name: sidebar
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body
+  label: Sidebar
 pages:
 - data/design.yaml
