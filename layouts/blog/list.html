@@ -4,12 +4,27 @@
         <div class="columns">
             <div class="column is-8">
                 <div class="columns is-multiline">
-                {{ range .Pages }}
+                    {{ $paginator := .Paginate (where .Pages "Type" "blog") 6 }}
+                    {{ range $paginator.Pages.ByWeight }}
                         <div class="column is-4">
-                            test
-                        </div>
-                {{ end }}
-                </div>
+                            <div class="blog-container" style="margin: 10px; height: 100%;">
+                                <a href="{{ .Permalink }}">
+                                <div class="blog-image-container">
+                                    <div class="card-content blog-bg" style="background: url({{ if .Params.featured_image }}{{ .Params.featured_image }}{{else}}https://www.hungryram.com/uploads/nophotohouse.jpg{{ end }});height: 30vh;position:relative;background-size:cover">
+                                </div>
+                              </div>
+                                  <div class="card-content">
+                                    <h2 class="subtitle is-5">{{ .Title }}</h2>
+                                    <p class="blog-summary">{{ .Summary }}</p>
+                                    <br>
+                                    <a href="{{ .Permalink }}" class="readmore">Read More</a>
+                                  </div>
+                              </a>
+                              </div>
+                        </div>   
+                    {{ end }}
+                    </div>
+                    {{ partial "templates/pagination" . }}
             </div>
             <div class="column">
                 {{ partial "templates/sidebar" . }}
