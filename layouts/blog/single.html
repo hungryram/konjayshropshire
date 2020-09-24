@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-9 content">
+                {{ if .Params.date }}<time><small>{{.Date.Format "January 2, 2006" }}</small></time><br>{{ end }}
+                <h1 class="title is-2 page-title has-text-weight-light mt-2">{{ .Title }}</h1>
+                <ul class="categories">
+                    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                  <li>
+                    <a href="/categories{{ $name | urlize | relURL }}" class="mr-3">{{ $name | humanize }}</a>
+                  </li>
+                  {{else}}
+                  <p>No blog categories just yet</p>
+                  {{ end }}
+                </ul>
+                {{ .Content }}
+                {{ partial "templates/share" . }}
+                <div class="columns">
+                    <div class="column pt-6">
+                        <h1 class="title page-title is-5">Leave a Comment</h1>
+                        <div class="fb-comments pt-6" data-href="{{ .Permalink }}" data-numposts="5" data-width="100%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                {{ partial "templates/sidebar" . }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
