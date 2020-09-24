@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-8">
+                <div class="columns is-multiline">
+                {{ range .Pages }}
+                        <div class="column is-4">
+                            test
+                        </div>
+                {{ end }}
+                </div>
+            </div>
+            <div class="column">
+                {{ partial "templates/sidebar" . }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
