@@ -1,0 +1,114 @@
+@font-face {
+    font-family: moon;
+    src: url("/fonts/MoonTime-Regular.otf");
+  }
+
+/* GLOBAL */
+
+.big-section {
+    padding: 8rem 1.5rem;
+}
+
+.cursive {
+    font-family: moon;
+}
+
+a.primary-btn {
+    background: #FDC6DA;
+    padding: 15px 35px;
+    color: #fff;
+}
+
+a.secondary-btn {
+    background: transparent;
+    border: 2px solid black;
+    padding: 15px 35px;
+    color: #000;
+}
+
+body h1.subtitle,
+body h2.subtitle,
+body h3.subtitle,
+body h4.subtitle,
+body h5.subtitle,
+body h6.subtitle {
+    font-family: 'Oswald', sans-serif;
+    color: rgba(0,0,0,1);
+    line-height: 1.2;
+    letter-spacing: 0em;
+    font-size: 34px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body p,
+body li,
+body a,
+body .content p {
+    font-family: 'Lato', sans-serif;
+    line-height: 2;
+}
+
+/* NAVBAR */
+
+div.top-bar {
+    background: #FDC6DA;
+    padding: 10px;
+}
+
+/* HERO */
+
+div.hero-container {
+    background: rgba(255,255,255,0.8);
+    padding: 20px;
+}
+
+div.hero-body h1.title.cursive {
+    font-size: 5em;
+}
+
+/* FEATURED */
+
+div.featured__container {
+    background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),url("/uploads/paint2.jpg") no-repeat 5%;
+    background-size: cover;
+}
+
+div.featured {
+    height: 400px;
+    padding: 12px;
+    background: gray;
+}
+
+div.featured-border {
+    border: 3px solid #E8B6B0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ABOUT */
+
+div.about__container .cursive {
+    font-size: 6rem;
+}
+
+/* COLUMN */
+
+div.inner-column {
+    background: gray;
+    padding: 120px 20px;
+}
+
+div.inner-column .cursive {
+    background: rgba(255,255,255,0.5);
+    padding: 50px 10px;
+}
+
+/* FOOTER */
+
+footer.footer {
+    background: #ffdbe8;
+}
