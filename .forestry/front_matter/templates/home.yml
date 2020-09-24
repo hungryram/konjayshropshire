@@ -107,3 +107,5 @@ fields:
       labelField: 
     label: Column
   label: Column Section
+pages:
+- data/home.yaml

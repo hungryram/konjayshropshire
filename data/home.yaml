@@ -1,0 +1,37 @@
+---
+hero_image:
+  image: "/uploads/bg.jpg"
+  heading: Winning with Konjay
+  subtitle: DISCOVER YOUR INNER HAPPINESS
+featured_section:
+  features:
+  - image: "/uploads/stil-mcomgccj6iq-unsplash.jpg"
+    heading: Free Tools
+    link: ''
+  - image: "/uploads/jess-bailey-q10vitrvyum-unsplash.jpg"
+    heading: " Success Tips"
+    link: ''
+  - image: "/uploads/arnel-hasanovic-mnd-rka1o0q-unsplash.jpg"
+    heading: Resources
+    link: ''
+  - image: "/uploads/uby-yanes-lmww0arhc4o-unsplash.jpg"
+    heading: Let’s Talk!
+    link: ''
+about_section:
+  heading: " Hi guys! I'm Konjay…"
+  subtitle: WINNING WITH KONJAY
+  body: 'I’ve worked in the Real Estate Wholesale Industry for over # of years, and
+    throughout my experiences, I’ve learned many tips of the trade and the best advice
+    on how to win BIG. My biggest goal is to see others, especially YOU, succeed in
+    this business and I’m eager to assist you with everything I’ve got. Let’s get
+    ready to WIN!'
+  link: "/about"
+  link_text: Contact me
+column_section:
+  column:
+  - heading: Beats by N’Khenge
+    link: ''
+  - heading: The Power of Goal Setting
+    link: ''
+  - heading: Success Tips
+    link: ''
