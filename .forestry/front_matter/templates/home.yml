@@ -1,4 +1,109 @@
 ---
 label: Home
 hide_body: true
-fields: []
+fields:
+- name: hero_image
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: Subtitle
+  label: Hero Image
+- name: featured_section
+  type: field_group
+  config: {}
+  fields:
+  - name: features
+    type: field_group_list
+    fields:
+    - name: image
+      type: file
+      config:
+        maxSize: 2
+      label: Image
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    - name: link
+      type: text
+      config:
+        required: false
+      label: Link
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Features
+  label: Featured Section
+- name: about_section
+  type: field_group
+  config: {}
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: Subtitle
+  - name: body
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Body
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  - name: link_text
+    type: text
+    config:
+      required: false
+    label: Link Text
+  label: About Section
+- name: column_section
+  type: field_group
+  config: {}
+  fields:
+  - name: column
+    type: field_group_list
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    - name: link
+      type: text
+      config:
+        required: false
+      label: Link
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Column
+  label: Column Section
