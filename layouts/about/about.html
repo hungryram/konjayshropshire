@@ -1,12 +1,14 @@
 {{ define "main" }}
 <div class="section">
     <div class="container">
-        <div class="columns">
+        <div class="columns is-vcentered is-variable is-8">
+            {{ if .Params.photo }}
             <div class="column">
-                <img src="" alt="">
+                <img src="{{ .Params.photo }}" alt="{{ $.Site.Data.profile.website_title }}">
             </div>
-            <div class="column">
-                {{ .Content }}
+            {{ end }}
+            <div class="column content">
+                    {{ .Content }}
             </div>
         </div>
     </div>

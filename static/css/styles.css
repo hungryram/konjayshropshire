@@ -13,7 +13,8 @@ html {
     padding: 8rem 1.5rem;
 }
 
-.cursive {
+body h1.cursive,
+body h2.cursive {
     font-family: moon;
 }
 
@@ -64,7 +65,13 @@ a.readmore {
     padding-bottom: 10px;
 }
 
-h1.page-title {
+h1.page-title,
+.content h1.title,
+.content h2.title,
+.content h3.title,
+.content h4.title,
+.content h5.title,
+.content h6.title {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -82,6 +89,10 @@ em {
 
 /* NAVBAR */
 
+a.navbar-link:not(.is-arrowless)::after {
+    border-color: #000;
+}
+
 div.hero-head {
     background: rgba(255,255,255,0.7);
 }
@@ -93,6 +104,12 @@ div .navbar-item img {
 div.top-bar {
     background: #fdd1d6;
     padding: 10px;
+}
+
+div.navbar-dropdown {
+    background: #F8F8F8;
+    border-radius: 0;
+    border-top: none;
 }
 
 /* HERO */
