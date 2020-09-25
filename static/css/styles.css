@@ -30,6 +30,19 @@ a.secondary-btn {
     color: #000;
 }
 
+input.input,
+textarea.textarea {
+    border-bottom: 1px solid #f16397;
+    border-radius: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    outline: none;
+    box-shadow: none;
+    background: #f6f6f6;
+    -webkit-appearance: none;
+}
+
 body h1.subtitle,
 body h2.subtitle,
 body h3.subtitle,
@@ -207,6 +220,6 @@ ul.categories li a {
 /* SHARE BUTTONS */
 
 div#share-buttons a {
-    color: #f16397
+    color: #f16397;
     margin: 10px;
 }
