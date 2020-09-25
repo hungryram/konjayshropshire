@@ -7,3 +7,8 @@ fields:
   config:
     maxSize: 2
   label: Photo
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
