@@ -7,10 +7,15 @@ fields:
   config:
     maxSize: 2
   label: Photo
-- name: seo
-  type: include
+- name: search_engine_optimization
+  type: field_group
   config: {}
-  template: seo
-  label: SEO
+  fields:
+  - name: seo
+    type: include
+    config: {}
+    template: seo
+    label: SEO
+  label: Search Engine Optimization
 pages:
 - content/about/_index.md
