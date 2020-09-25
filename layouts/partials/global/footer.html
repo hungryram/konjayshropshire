@@ -3,7 +3,6 @@
 {{ $footerDesign := .Site.Data.design.footer }}
 {{ $footerSocial := .Site.Data.profile.social_media }}
 <footer class="footer">
-<div class="section">
   <div class="container">
     <div class="columns">
       <div class="column has-text-centered">
@@ -25,11 +24,14 @@
           {{ if $footerSocial.trulia }}<li><a href="{{ $footerSocial.trulia }}" target="_blank">Trulia</a></li>{{ end }}
           {{ if $footerSocial.yelp }}<li><a href="{{ $footerSocial.yelp }}" target="_blank">Yelp</a></li>{{ end }}
         </ul>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column has-text-centered">
         <small class="is-size-7 has-text-white">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.website_title }} &middot; <a href="https://hungryram.com" target="_blank" class="has-text-white">Website Developed by Hungry Ram</a></small>
 
       </div>
     </div>
-  </div>
 </div>
 </footer>
 <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>

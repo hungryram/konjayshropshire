@@ -112,6 +112,15 @@ div.navbar-dropdown {
     border-top: none;
 }
 
+a.navbar-item {
+    transition: .3s ease;
+}
+
+.navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
+    color: #f16397!important;
+    transition: .3s ease;
+}
+
 /* HERO */
 
 div.hero-container {
@@ -161,6 +170,21 @@ div.about__container .cursive {
     font-size: 6rem;
 }
 
+/* SIDEBAR */
+
+div ul.social {
+    margin: 0;
+}
+
+ul.social li {
+    display: inline-block;
+    list-style: none;
+}
+
+ul.social li{
+    margin-right: 10px;
+}
+
 /* COLUMN */
 
 div.inner-column {
@@ -176,9 +200,23 @@ div.inner-column .cursive {
 
 footer.footer {
     background: #ffdbe8;
+    padding: 2rem 1.5rem;
 }
 
-/* PAGINATION */
+.footer {
+    background-color: #fafafa;
+    padding: 3rem 1.5rem 6rem;
+}
+
+ul.footer-social li {
+    display: inline-block;
+    margin: 10px;
+}
+
+ul.footer-social li a {
+    color: #000;
+}
+
 /* PAGINATION */
 
 .pagination li a {
