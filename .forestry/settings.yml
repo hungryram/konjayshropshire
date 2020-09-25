@@ -18,6 +18,10 @@ sections:
   label: Pages
   create: all
   match: "*"
+- type: document
+  path: data/default.yaml
+  label: Default Pages
+  match: "**/*"
 - type: heading
   label: Blog
 - type: directory
