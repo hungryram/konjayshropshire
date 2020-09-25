@@ -32,6 +32,10 @@ sections:
 - type: document
   path: content/about/_index.md
   label: About
+- type: document
+  path: content/contact/_index.md
+  label: Contact
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
