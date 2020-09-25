@@ -1,4 +1,9 @@
 ---
 label: About
-hide_body: true
-fields: []
+hide_body: false
+fields:
+- name: photo
+  type: file
+  config:
+    maxSize: 2
+  label: Photo
