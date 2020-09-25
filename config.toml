@@ -2,6 +2,11 @@ baseURL = "https://winningwithkonjay.netlify.app/"
 languageCode = "en-us"
 summaryLength = 20
 [[menu.main]]
+name = "Blog"
+parent = "Blog"
+url = "/blog"
+weight = 2
+[[menu.main]]
 name = "About"
 url = "/about"
 weight = 2
