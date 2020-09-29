@@ -1,4 +1,5 @@
 +++
+author = "author/konjay-shropshire.md"
 categories = ["Real Estate"]
 date = 2020-04-11T07:00:00Z
 featured_image = "/uploads/uby-yanes-lmww0arhc4o-unsplash.jpg"
