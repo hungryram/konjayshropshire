@@ -84,6 +84,43 @@ fields:
       required: false
     label: Link Text
   label: About Section
+- name: background_image_text
+  type: field_group
+  config: {}
+  fields:
+  - name: background_image
+    type: field_group_list
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    - name: body
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: false
+        schema:
+          format: markdown
+      label: Body
+    - name: link
+      type: text
+      config:
+        required: false
+      label: Link
+    - name: link_text
+      type: text
+      config:
+        required: false
+      label: Link Text
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Background Image
+  label: Background Image Text
 - name: column_section
   type: field_group
   config: {}
