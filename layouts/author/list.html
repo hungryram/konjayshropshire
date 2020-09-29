@@ -9,7 +9,7 @@
         <div class="columns">
             <div class="column is-9">
                 <div class="columns is-multiline">
-                    {{ $paginator := .Paginate (where .RegularPages.ByDate "Type" "author") 6 }}
+                    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "author") 6 }}
                     {{ range $paginator.Pages.ByWeight }}
                         <div class="column is-full mt-4 card pt-4 pb-4 pr-5">
                             <div class="columns is-vcentered">
