@@ -21,6 +21,11 @@ sections:
 - type: heading
   label: Blog
 - type: directory
+  path: content/author
+  label: Author
+  create: documents
+  match: "**/*"
+- type: directory
   path: content/blog
   label: Posts
   create: documents
