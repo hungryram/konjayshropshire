@@ -5,12 +5,14 @@
            <div class="bg-about" style="background:url(/uploads/konjay.png)no-repeat top;height:80vh;background-size:cover"></div>
         </div>
         <div class="column is-5">
-            <div class="content container mt-6 pr-6 pl-6 pb-6">
+            <div class="container mt-6 pr-6 pl-6 pb-6">
                 {{ if $about.heading }}<h1 class="is-1 cursive has-text-weight-light">{{ $about.heading }}</h1>{{ end }}
-                {{ if $about.subtitle }}<h2 class="subtitle is-4 is-uppercase mt-4">{{ $about.subtitle }}</h2>{{ end }}
-                {{ if $about.body }}<p>{{ $about.body | markdownify }}</p>{{ end }}
-                <br>
-                {{ if $about.link }}<a href="{{ $about.link }}" class="primary-btn">{{ $about.link_text }}</a>{{ end }}
+                <div class="content">
+                    {{ if $about.subtitle }}<h2 class="subtitle is-4 is-uppercase mt-4">{{ $about.subtitle }}</h2>{{ end }}
+                    {{ if $about.body }}<p>{{ $about.body | markdownify }}</p>{{ end }}
+                    <br>
+                    {{ if $about.link }}<a href="{{ $about.link }}" class="primary-btn">{{ $about.link_text }}</a>{{ end }}
+                </div>
             </div>
         </div>
         <div class="column"></div>

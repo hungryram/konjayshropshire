@@ -1,0 +1,39 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <h1 class="title is-3 page-title">Our Authors</h1>
+            </div>
+        </div>
+        <div class="columns">
+            <div class="column is-9">
+                <div class="columns is-multiline">
+                    {{ $paginator := .Paginate (where .RegularPages.ByDate "Type" "author") 6 }}
+                    {{ range $paginator.Pages.ByWeight }}
+                        <div class="column is-full mt-4 card pt-4 pb-4 pr-5">
+                            <div class="columns is-vcentered">
+                                <div class="column has-text-centered">
+                                    <img src="{{ .Params.photo }}" alt="" style="width: 200px;height:200px;object-fit:cover;border-radius:50%;">
+                                </div>
+                                <div class="column">
+                                    <h1 class="page-title title is-4 mb-4 is-uppercase">{{ .Title }}</h1>
+                                    {{ .Summary }}
+                                    <br>
+                                    <br>
+                                    <a href="{{ .Permalink }}" class="primary-btn">Read more</a>
+                                </div>
+                            </div>
+                        </div>   
+                    {{ end }}
+                    </div>
+                    {{ partial "templates/pagination" . }}
+            </div>
+            <div class="column">
+                {{ partial "templates/sidebar" . }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+

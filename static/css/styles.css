@@ -5,6 +5,10 @@
 
 /* GLOBAL */
 
+div.notification {
+    background: #fbfbfb;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -72,6 +76,15 @@ h1.page-title,
 .content h4.title,
 .content h5.title,
 .content h6.title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.content h1,
+div.content h2,
+div.content h3,
+div.content h4,
+div.content h5,
+div.content h6 {
     font-family: 'Montserrat', sans-serif;
 }
 

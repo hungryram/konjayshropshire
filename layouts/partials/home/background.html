@@ -1,11 +1,19 @@
-<div class="background-cta" style="background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url(/uploads/minimaldesk2.jpg)no-repeat center;background-size:cover;padding: 200px 50px">
+{{ $background := .Site.Data.home.background_image_text }}
+<div class="background-cta" style="background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url({{ $background.background_image }})no-repeat center;background-size:cover;padding: 200px 50px">
     <div class="section">
         <div class="container">
             <div class="columns is-vcentered has-text-centered">
                 <div class="column is-half is-offset-one-quarter">
-                    <h2 class="subtitle is-3 has-text-centered cursive">This is the title</h2>
+                    <h2 class="subtitle is-3 has-text-centered cursive">{{ $background.heading }}</h2>
+                    {{- if $background.body -}}
+                        <div class="content has-text-black">
+                            <p>{{ $background.body }}</p>
+                        </div>
+                    {{- end -}}
                     <br>
-                    <a href="" class="secondary-btn">Search</a>
+                    {{- if $background.link -}}
+                        <a href="{{ $background.link }}" class="secondary-btn">{{ $background.link_text }}</a>
+                    {{- end -}}
                 </div>
             </div>
         </div>

@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-9 content">
+                <h1 class="title is-2 page-title has-text-weight-light mt-2">{{ .Title }}</h1>
+                {{ .Content }}
+                <div class="columns">
+                    <div class="column">
+                        {{ range (where .Site.RegularPages "Type" "blog") }}
+                            {{ if in .Permalink .Params.author }}
+                                <a href="{{ .Permalink }}">{{.Title }}</a><br>
+                            {{ end }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                {{ partial "templates/sidebar" . }}
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}
+
