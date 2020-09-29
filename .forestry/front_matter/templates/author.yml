@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Author Name
+- name: photo
+  type: file
+  config:
+    maxSize: 64
+  label: Photo
 - name: social
   type: field_group
   config: {}
