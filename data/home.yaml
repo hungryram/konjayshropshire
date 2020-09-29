@@ -38,3 +38,9 @@ column_section:
   - heading: Success Tips
     link: ''
     image: "/uploads/markus-winkler-w8vpcvdslf8-unsplash.jpg"
+background_image_text:
+  background_image: "/uploads/arnel-hasanovic-mnd-rka1o0q-unsplash.jpg"
+  heading: Quotes by Konjay
+  body: View inspirational quotes
+  link: "/quotes-by-konjay"
+  link_text: View More
