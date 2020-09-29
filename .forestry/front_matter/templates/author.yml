@@ -1,4 +1,34 @@
 ---
 label: Author
-hide_body: true
-fields: []
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Author Name
+- name: social
+  type: field_group
+  config: {}
+  fields:
+  - name: instagram
+    type: text
+    config:
+      required: false
+    label: Instagram
+  - name: twitter
+    type: text
+    config:
+      required: false
+    label: Twitter
+  - name: pinterest
+    type: text
+    config:
+      required: false
+    label: Pinterest
+  - name: linkedin
+    type: text
+    config:
+      required: false
+    label: Linkedin
+  label: Social
