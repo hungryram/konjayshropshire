@@ -1,4 +1,5 @@
 +++
+author = "author/konjay-shropshire.md"
 categories = ["Buying"]
 date = 2019-06-13T07:00:00Z
 featured_image = "/uploads/stil-mcomgccj6iq-unsplash.jpg"
