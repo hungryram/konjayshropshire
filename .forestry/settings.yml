@@ -25,6 +25,8 @@ sections:
   label: Author
   create: documents
   match: "**/*"
+  templates:
+  - author
 - type: directory
   path: content/blog
   label: Posts
