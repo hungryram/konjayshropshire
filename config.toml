@@ -17,3 +17,7 @@ weight = 3
 name = "Home"
 url = "/"
 weight = 1
+[taxonomies]
+category = "categories"
+city = "city"
+author = "authors"
