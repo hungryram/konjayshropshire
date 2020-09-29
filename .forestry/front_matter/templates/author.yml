@@ -37,3 +37,5 @@ fields:
       required: false
     label: Linkedin
   label: Social
+pages:
+- content/author/konjay-shropshire.md
