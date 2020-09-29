@@ -7,6 +7,18 @@ fields:
   config:
     required: false
   label: Blog Title
+- name: author
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: author
+      file: 
+      path: 
+  label: Author
 - name: featured_image
   type: file
   config:
