@@ -1,7 +1,7 @@
  <!-- Hero head: will stick at the top -->
  <div class="top-bar">
    <div class="container">
-     <p class="has-text-white">Following your dreams and aspirations</p>
+     {{ with .Site.Data.design.header.top_bar_text }}<p class="has-text-white">{{ . }}</p>{{ end }}
    </div>
  </div>
  <div class="hero-head">
@@ -51,3 +51,4 @@
     </div>
   </nav>
 </div>
+
