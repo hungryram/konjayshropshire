@@ -61,6 +61,16 @@ fields:
     config: {}
     template: seo
     label: SEO
+  - name: twitter_card
+    type: field_group
+    config: {}
+    fields:
+    - name: twitter_username
+      type: text
+      config:
+        required: false
+      label: Twitter Username
+    label: Twitter Card
   label: Search Engine Optimization
 pages:
 - data/profile.yaml
