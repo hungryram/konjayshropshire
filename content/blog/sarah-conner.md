@@ -1,4 +1,5 @@
 +++
+alt_tag = "book and glasses"
 author = "author/konjay-shropshire.md"
 categories = ["Buying"]
 date = 2019-06-13T07:00:00Z
