@@ -1,0 +1,15 @@
+{{ $logo := .Site.Data.design.branding.logo }}
+{{ $profile := .Site.Data.profile.search_engine_optimization }}
+
+<!-- TWITTER CARD -->
+<meta name="twitter:site" content="{{ .Permalink }}">
+<meta name="twitter:title" content="{{ . | truncate 70 }}" />
+<meta name="twitter:description" content="{{ .Content | truncate 200 }}">
+{{- with .Params.featured_image | default $logo }}
+<meta name="twitter:image" content="{{ . | absURL }}" />
+{{- end }}
+<meta name="twitter:card" content="summary_large_image"/>
+{{ with $profile.twitter.twitter_username }}
+<meta name="twitter:site" content="@{{ $profile.twitter.twitter_username }}" />
+<meta name="twitter:creator" content="@{{ $profile.twitter.twitter_username }}" />
+{{ end }}

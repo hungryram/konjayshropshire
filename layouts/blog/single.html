@@ -6,14 +6,13 @@
                 {{ if .Params.date }}<time><small>{{.Date.Format "January 2, 2006" }}</small></time><br>{{ end }}
                 <h1 class="title is-2 page-title has-text-weight-light mt-2">{{ .Title }}</h1>
                 <ul class="categories">
-                    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                    {{ range .Params.categories }}
                   <li>
-                    <a href="/categories{{ $name | urlize | relURL }}" class="mr-3">{{ $name | humanize }}</a>
+                    <a href="/categories/{{ . | urlize }}" class="mr-3">{{ . }}</a>
                   </li>
-                  {{else}}
-                  <p>No blog categories just yet</p>
                   {{ end }}
                 </ul>
+                <img src="{{ .Params.featured_image }}" alt="{{ .Params.alt_tag }}">
                 {{ .Content }}
                 {{ partial "templates/share" . }}
                 <div class="columns mt-6">

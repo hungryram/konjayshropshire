@@ -230,6 +230,14 @@ ul.footer-social li a {
     color: #000;
 }
 
+/* AUTHOR */
+
+div.author-social {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
 /* PAGINATION */
 
 .pagination li a {
