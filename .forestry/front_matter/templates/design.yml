@@ -46,5 +46,15 @@ fields:
         format: markdown
     label: Body
   label: Sidebar
+- name: header
+  type: field_group
+  config: {}
+  fields:
+  - name: top_bar_text
+    type: text
+    config:
+      required: false
+    label: Top Bar Text
+  label: Header
 pages:
 - data/design.yaml
