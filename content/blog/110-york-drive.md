@@ -3,7 +3,6 @@ alt_tag = ""
 author = "author/konjay-shropshire.md"
 categories = ["First", "Real Estate"]
 date = 2020-09-02T07:00:00Z
-draft = true
 featured_image = "/uploads/alexa-williams-ywbx02k60a4-unsplash.jpg"
 meta_description = "Meta"
 tags = ["how to reach goals", "steps to take action to reach goals", "goal setting strategies that actually work", "best goal setting strategies "]
