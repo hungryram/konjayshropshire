@@ -71,6 +71,16 @@ fields:
         required: false
       label: Twitter Username
     label: Twitter Card
+  - name: facebook
+    type: field_group
+    config: {}
+    fields:
+    - name: app_id
+      type: text
+      config:
+        required: false
+      label: App ID
+    label: Facebook
   label: Search Engine Optimization
 pages:
 - data/profile.yaml
