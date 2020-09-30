@@ -2,6 +2,12 @@ baseURL = "https://winningwithkonjay.com/"
 languageCode = "en-us"
 summaryLength = 20
 [[menu.main]]
+name = "Winning With Konjay Podcast"
+weight = 7
+[[menu.main]]
+name = "Resources"
+weight = 6
+[[menu.main]]
 name = "About"
 url = "/about"
 weight = 2
