@@ -21,6 +21,8 @@
     <title>{{ $seo.title_tag }}</title>
     <meta name="description" content="{{ $seo.meta_description }}">
 {{ else }}
-    {{ if .Params.title_tag }}<title>{{ .Params.title_tag }}</title>{{ else }}<title>{{ .Params.search_engine_optimization.title_tag }}</title>{{ end }}
+    {{ with .Params.title_tag | default .Params.search_engine_optimization.title_tag }}
+    <title>{{ . }}</title>
+    {{ end }}
     {{ if $.Params.meta_description }}<meta name="description" content="{{ $.Params.meta_description }}">{{ else }}<meta name="description" content="{{ .Params.search_engine_optimization.meta_description }}">{{ end }}
 {{ end }}

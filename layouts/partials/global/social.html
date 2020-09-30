@@ -13,3 +13,9 @@
 <meta name="twitter:site" content="@{{ $profile.twitter.twitter_username }}" />
 <meta name="twitter:creator" content="@{{ $profile.twitter.twitter_username }}" />
 {{ end }}
+<meta name="twitter:image:alt" content="{{ .Params.alt_tag }}">
+
+<!-- FACEBOOK -->
+{{- with $profile.facebook.app_id }}
+<meta property="fb:app_id" content="{{ . }}" />
+{{- end }}
