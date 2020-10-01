@@ -3,7 +3,6 @@ alt_tag = ""
 author = "author/konjay-shropshire.md"
 categories = []
 date = ""
-draft = true
 featured_image = "/uploads/postiive-energy.jpg"
 meta_description = ""
 tags = ["how to stay positive ", "replacing negative thoughts ", "how to get rid of negative energy", "tips for positivity "]
