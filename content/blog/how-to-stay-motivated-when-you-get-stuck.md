@@ -3,9 +3,9 @@ alt_tag = ""
 author = "author/konjay-shropshire.md"
 categories = []
 date = ""
-featured_image = ""
+featured_image = "/uploads/depositphotos_48612283_xl-2015.jpg"
 meta_description = ""
-tags = []
+tags = ["how to stay motivated", "how to remove negative energy ", "how to keep persisting through hard times ", "best ways to stay motivated ", "best ways to get motivated "]
 title = "How to Stay Motivated When You Get Stuck"
 title_tag = ""
 
