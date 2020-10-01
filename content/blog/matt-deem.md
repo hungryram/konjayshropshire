@@ -5,7 +5,7 @@ categories = []
 date = ""
 featured_image = "/uploads/meditation.jpg"
 meta_description = "rtyrty"
-tags = []
+tags = ["what is non reaction?", "How to effectively use non reaction", "best uses of mediation ", "how to meditate for beginners ", "beginner mediation practices"]
 title = "Practicing the Art of Non-Reaction with Meditation"
 title_tag = "Accessibility - Wallstreet Realty"
 
