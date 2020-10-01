@@ -3,7 +3,6 @@ alt_tag = ""
 author = "author/konjay-shropshire.md"
 categories = []
 date = ""
-draft = true
 featured_image = "/uploads/depositphotos_11378931_xl-2015.jpg"
 meta_description = ""
 tags = ["how to effectively chase your dreams", "effective goal setting ", "best strategies for setting goals", "advice to chase your dreams"]
