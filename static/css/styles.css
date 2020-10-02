@@ -3,6 +3,10 @@
     src: url("/fonts/MoonTime-Regular.otf");
   }
 
+  @font-face {
+    font-family: wildspirit;
+    src: url("/fonts/Wild-Spirit.ttf");
+  }
 /* GLOBAL */
 
 div.notification {
@@ -26,6 +30,9 @@ a.primary-btn {
     background: #FDC6DA;
     padding: 15px 35px;
     color: #fff;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 500;
+    font-size: 18pt;
 }
 
 a.secondary-btn {
@@ -33,6 +40,9 @@ a.secondary-btn {
     border: 2px solid black;
     padding: 15px 35px;
     color: #000;
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 500;
+    font-size: 18pt;
 }
 
 input.input,
@@ -85,7 +95,7 @@ div.content h3,
 div.content h4,
 div.content h5,
 div.content h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body p,
@@ -96,7 +106,7 @@ time,
 small,
 strong,
 em {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 2;
 }
 
@@ -127,6 +137,9 @@ div.navbar-dropdown {
 
 a.navbar-item {
     transition: .3s ease;
+    font-family: 'Abhaya Libre', serif;
+    font-weight:400;
+    font-size:15pt;
 }
 
 .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
