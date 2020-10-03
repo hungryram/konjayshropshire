@@ -1,6 +1,6 @@
 +++
 photo = "/uploads/konjay2.png"
-title = "ram test"
+title = ""
 [social]
 instagram = ""
 linkedin = ""
