@@ -2,7 +2,7 @@
 photo = "/uploads/konjay2.png"
 title = ""
 [social]
-instagram = ""
+instagram = "instagram.com/konjayspeaks"
 linkedin = ""
 pinterest = ""
 twitter = ""
