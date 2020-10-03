@@ -29,15 +29,15 @@ about_section:
   link_text: Contact me
 column_section:
   column:
-  - heading: Beats by Konjay
-    link: ''
-    image: "/uploads/travis-yewell-f-b7kwlkxdq-unsplash.jpg"
   - heading: The Power of Goal Setting
     link: ''
     image: "/uploads/content-pixie-l6i8jpzkjqu-unsplash.jpg"
   - heading: Success Tips
     link: ''
     image: "/uploads/markus-winkler-w8vpcvdslf8-unsplash.jpg"
+  - heading: Beats by Konjay
+    link: ''
+    image: "/uploads/travis-yewell-f-b7kwlkxdq-unsplash.jpg"
 background_image_text:
   background_image: "/uploads/arnel-hasanovic-mnd-rka1o0q-unsplash.jpg"
   heading: Quotes by Konjay
