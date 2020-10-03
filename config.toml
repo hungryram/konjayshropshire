@@ -5,27 +5,16 @@ summaryLength = 25
 name = "Shop"
 weight = 6
 [[menu.main]]
-name = "Podcast"
-weight = 3
-[[menu.main]]
 name = "Resources"
 weight = 5
 [[menu.main]]
-name = "About"
-url = "/about"
-weight = 2
-[[menu.main]]
 name = "Contact"
-url = "/contact"
+url = "https://my.setmore.com/onewaysync?cKey=r191231568732083b912f5b3b450faff98552b3c2&sKey=80f1e1d4459c965140ffbba5758ae85707bb2489"
 weight = 7
 [[menu.main]]
 name = "Blog"
 url = "/blog"
 weight = 4
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
 [taxonomies]
 author = "authors"
 category = "categories"

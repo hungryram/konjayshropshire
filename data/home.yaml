@@ -44,3 +44,7 @@ background_image_text:
   body: View inspirational quotes
   link: "/quotes-by-konjay"
   link_text: View More
+menu:
+  main:
+    name: Home
+    weight: 1
