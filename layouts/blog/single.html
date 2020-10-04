@@ -2,7 +2,7 @@
 <div class="section">
     <div class="container">
         <div class="columns">
-            <div class="column is-9 content">
+            <div class="column content is-three-fifths is-offset-one-fifth">
                 {{ if .Params.date }}<time><small>{{.Date.Format "January 2, 2006" }}</small></time><br>{{ end }}
                 <h1 class="title is-2 page-title has-text-weight-light mt-2">{{ .Title }}</h1>
                 <ul class="categories">
@@ -41,9 +41,6 @@
                         <div class="fb-comments pt-6" data-href="{{ .Permalink }}" data-numposts="5" data-width="100%"></div>
                     </div>
                 </div>
-            </div>
-            <div class="column">
-                {{ partial "templates/sidebar" . }}
             </div>
         </div>
     </div>
