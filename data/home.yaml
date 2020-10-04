@@ -43,7 +43,7 @@ background_image_text:
   heading: Winning With Konjay Podcast
   body: ''
   link: "/quotes-by-konjay"
-  link_text: View More
+  link_text: ''
 menu:
   main:
     name: Home
