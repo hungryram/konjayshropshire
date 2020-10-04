@@ -1,6 +1,6 @@
 ---
 branding:
-  logo: "/uploads/mylogo.png"
+  logo: ''
   favicon: "/uploads/logo.png"
   site_title: Winning with Konjay
 sidebar:
