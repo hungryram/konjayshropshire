@@ -2,6 +2,9 @@ baseURL = "https://winningwithkonjay.com/"
 languageCode = "en-us"
 summaryLength = 25
 [[menu.main]]
+name = "About"
+weight = 2
+[[menu.main]]
 name = "Shop"
 weight = 6
 [[menu.main]]

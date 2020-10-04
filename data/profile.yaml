@@ -16,7 +16,3 @@ search_engine_optimization:
     twitter_username: test
   facebook:
     app_id: "3345454"
-menu:
-  main:
-    name: About
-    weight: 2
