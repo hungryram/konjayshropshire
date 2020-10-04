@@ -1,9 +1,6 @@
 +++
 photo = "/uploads/konjay2.png"
 title = ""
-[menu.main]
-name = "Home"
-weight = 1
 [social]
 instagram = "instagram.com/konjayspeaks"
 linkedin = ""
