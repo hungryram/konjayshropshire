@@ -7,3 +7,4 @@ meta_description = ""
 title_tag = ""
 
 +++
+![](/uploads/bg.jpg)
