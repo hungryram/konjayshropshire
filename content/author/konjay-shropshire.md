@@ -1,6 +1,9 @@
 +++
 photo = "/uploads/imagelogoheadshot.png"
 title = "Konjay Shropshire"
+[menu.main]
+name = "Home"
+weight = 1
 [social]
 instagram = "https://instagram.com"
 linkedin = "https://linkedin.com"
