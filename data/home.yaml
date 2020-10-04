@@ -30,7 +30,7 @@ about_section:
 column_section:
   column:
   - heading: Quotes by Konjay
-    link: ''
+    link: "/quotesbykonjay"
     image: "/uploads/quotationimage.png"
   - heading: Winning Success Stories
     link: ''
