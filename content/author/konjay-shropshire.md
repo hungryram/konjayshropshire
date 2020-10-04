@@ -1,5 +1,5 @@
 +++
-photo = "/uploads/profile.jpeg"
+photo = "/uploads/imagelogoheadshot.png"
 title = "Konjay Shropshire"
 [social]
 instagram = "https://instagram.com"
