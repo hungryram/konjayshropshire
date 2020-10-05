@@ -30,7 +30,7 @@ about_section:
 column_section:
   column:
   - heading: Quotes by Konjay
-    link: https://www.winningwithkonjay.com/admin/#/pages/content-top-tips-by-konjay-md/
+    link: content-top-tips-by-konjay-md/
     image: "/uploads/quotationimage.png"
   - heading: Winning Success Stories
     link: ''
