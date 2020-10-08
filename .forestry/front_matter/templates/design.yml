@@ -2,6 +2,14 @@
 label: Design
 hide_body: true
 fields:
+- name: under_construction_page
+  type: field_group
+  config: {}
+  fields:
+  - name: enable_coming_soon
+    type: boolean
+    label: Enable Coming Soon
+  label: Under Construction Page
 - name: branding
   type: field_group
   config: {}
