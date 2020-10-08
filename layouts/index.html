@@ -1,3 +1,6 @@
+{{ if .Site.Data.design.under_construction_page.enable_coming_soon }}
+{{ partial "home/construction.html" . }}
+{{ else }}
 {{ partial "global/head" . }}
 {{ partial "home/hero" . }}
 {{ partial "home/featured" . }}
@@ -5,3 +8,4 @@
 {{ partial "home/background" . }}
 {{ partial "home/column" . }}
 {{ partial "global/footer" . }}
+{{ end }}
