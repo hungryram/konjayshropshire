@@ -5,7 +5,7 @@
             {{ range $column }}
             <div class="column">
                 <a href="{{ .link }}">
-                    <div class="inner-column" style="background:url({{ .Site.Params.cloudinary_url }}{{ .image }})no-repeat center;background-size:cover">
+                    <div class="inner-column" style="background:url({{ $.Site.Params.cloudinary_url }}{{ .image }})no-repeat center;background-size:cover">
                         <h2 class="title cursive is-3 has-text-centered">{{ .heading }}</h2>
                     </div>
                 </a>

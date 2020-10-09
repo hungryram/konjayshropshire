@@ -4,7 +4,7 @@
             {{ range .Site.Data.home.featured_section.features }}
             <div class="column">
                 <a href="{{ .link }}">
-                    <div class="featured" style="background:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),url({{ .Site.Params.cloudinary_url }}{{ .image }})no-repeat center;background-size:cover">
+                    <div class="featured" style="background:linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)),url({{ $.Site.Params.cloudinary_url }}{{ .image }})no-repeat center;background-size:cover">
                         <div class="featured-border">
                         </div>
                     </div>
