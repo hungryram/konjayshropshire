@@ -14,7 +14,7 @@
                         <div class="column is-full mt-4 card pt-4 pb-4 pr-5">
                             <div class="columns is-vcentered">
                                 <div class="column has-text-centered">
-                                    <img src="{{ .Params.photo }}" alt="" style="width: 200px;height:200px;object-fit:cover;border-radius:50%;">
+                                    <img src="{{ .Site.Params.cloudinary_url }}{{ .Params.photo }}" alt="" style="width: 200px;height:200px;object-fit:cover;border-radius:50%;">
                                 </div>
                                 <div class="column">
                                     <h1 class="page-title title is-4 mb-4 is-uppercase">{{ .Title }}</h1>

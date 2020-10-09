@@ -1,5 +1,5 @@
 {{ $background := .Site.Data.home.background_image_text }}
-<div class="background-cta" style="background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url({{ $background.background_image }})no-repeat center;background-size:cover;padding: 200px 50px">
+<div class="background-cta" style="background:linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url({{ .Site.Params.cloudinary_url }}{{ $background.background_image }})no-repeat center;background-size:cover;padding: 200px 50px">
     <div class="section">
         <div class="container">
             <div class="columns is-vcentered has-text-centered">

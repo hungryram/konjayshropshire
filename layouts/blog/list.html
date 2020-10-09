@@ -10,7 +10,7 @@
                             <div class="blog-container" style="margin: 10px; height: 100%;">
                                 <a href="{{ .Permalink }}">
                                 <div class="blog-image-container">
-                                    <img src="{{ if .Params.featured_image }}{{ .Params.featured_image }}{{else}}/uploads/main2.jpg{{ end }}" alt="{{ .Params.alt_tag }}" style="width:100%;height:200px;object-fit:cover">
+                                    <img src="{{ if .Params.featured_image }}{{ .Site.Params.cloudinary_url }}{{ .Params.featured_image }}{{else}}/uploads/main2.jpg{{ end }}" alt="{{ .Params.alt_tag }}" style="width:100%;height:200px;object-fit:cover">
                               </div>
                                   <div class="card-content">
                                     <h1 class="page-title is-5 has-text-black">{{ .Title }}</h2>

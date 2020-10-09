@@ -12,7 +12,7 @@
                   </li>
                   {{ end }}
                 </ul>
-                <img src="{{ .Params.featured_image }}" alt="{{ .Params.alt_tag }}" class="mb-6">
+                <img src="{{ .Site.Params.cloudinary_url }}{{ .Params.featured_image }}" alt="{{ .Params.alt_tag }}" class="mb-6">
                 {{ .Content }}
                 {{ partial "templates/share" . }}
                 <div class="columns mt-6">
@@ -21,7 +21,7 @@
                             {{ with .Site.GetPage .Params.author }}
                             <div class="columns notification">
                                 <div class="column is-4 has-text-centered">
-                                    <img src="{{ .Params.photo }}" alt="" style="object-fit: cover;height:150px;width:150px;border-radius:50%;margin: 0 auto;">
+                                    <img src="{{ .Site.Params.cloudinary_url }}{{ .Params.photo }}" alt="" style="object-fit: cover;height:150px;width:150px;border-radius:50%;margin: 0 auto;">
                                 </div>
                                 <div class="column content">
                                     <h4 class="subtitle is-4">{{ .Title }}</h4>

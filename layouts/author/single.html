@@ -5,7 +5,7 @@
             <div class="column is-9 content">
                 <div class="columns is-variable is-8">
                     <div class="column">
-                        <img src="{{ .Params.photo }}" alt="{{ .Title }}">
+                        <img src="{{ .Site.Params.cloudinary_url }}{{ .Params.photo }}" alt="{{ .Title }}">
                     </div>
                     <div class="column">
                         <h1 class="title is-2 page-title has-text-weight-light mt-2">{{ .Title }}</h1>

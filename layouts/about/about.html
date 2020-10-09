@@ -4,7 +4,7 @@
         <div class="columns is-vcentered is-variable is-8">
             {{ if .Params.photo }}
             <div class="column">
-                <img src="{{ .Params.photo }}" alt="{{ $.Site.Data.profile.website_title }}">
+                <img src="{{ .Site.Params.cloudinary_url }}{{ .Params.photo }}" alt="{{ $.Site.Data.profile.website_title }}">
             </div>
             {{ end }}
             <div class="column content">

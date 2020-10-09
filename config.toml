@@ -1,6 +1,10 @@
 baseURL = "https://winningwithkonjay.com/"
 languageCode = "en-us"
 summaryLength = 25
+
+[params]
+cloudinary_url = "https://res.cloudinary.com/winningwithkonjay/image/upload/"
+
 [[menu.main]]
 name = "Contact"
 weight = 7
