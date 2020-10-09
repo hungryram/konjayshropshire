@@ -17,3 +17,4 @@ under_construction_page:
   body_text: Check back December 3rd for our launched website!
   background_image: "/uploads/main3.jpg"
   logo: "/uploads/construction.png"
+  logo_width: 280
