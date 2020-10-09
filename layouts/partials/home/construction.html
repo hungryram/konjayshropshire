@@ -21,12 +21,12 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <section class="hero is-fullheight" style="background:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url({{ .Site.Params.cloudinary_url }}{{ $content.background_image }}) no-repeat center;background-size:cover">
+        <section class="hero is-fullheight" style="background:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url({{ $.Site.Params.cloudinary_url }}{{ $content.background_image }}) no-repeat center;background-size:cover">
   <div class="hero-body">
     <div class="container has-text-centered">
       <div class="columns">
         <div class="column is-half is-offset-one-quarter">
-         {{ if $content.logo }} <img src="{{ $content.logo }}" alt="Winning with Konjay" width="{{ .Site.Params.cloudinary_url }}{{ $content.logo_width }}"> {{ end }}
+         {{ if $content.logo }} <img src="{{ $.Site.Params.cloudinary_url }}{{ $content.logo }}" alt="Winning with Konjay" width="{{ $content.logo_width }}"> {{ end }}
           <h1 class="title is-3 cursive has-text-weight-normal" style="color: #BB7575">{{ $content.heading }}</h1>
           <p>{{ $content.body_text }}</p>
               <script src="https://cdn.logwork.com/widget/countdown.js"></script>
