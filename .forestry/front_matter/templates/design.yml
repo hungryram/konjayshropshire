@@ -9,6 +9,25 @@ fields:
   - name: enable_coming_soon
     type: boolean
     label: Enable Coming Soon
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: body_text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Body Text
+  - name: background_image
+    type: file
+    config:
+      maxSize: 64
+    label: Background Image
   label: Under Construction Page
 - name: branding
   type: field_group
