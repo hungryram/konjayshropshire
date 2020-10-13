@@ -15,9 +15,6 @@ Looking to improve and expand your mindset and success routes? Come and learn mo
 
 Link
 
-
-
-
 Link
 
 ![](/uploads/book.jpg)
