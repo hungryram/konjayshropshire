@@ -80,6 +80,12 @@ a.readmore {
     padding-bottom: 10px;
 }
 
+div.line {
+    background: red;
+    width: 200px;
+    height: 2px;
+}
+
 h1.page-title,
 .content h1.title,
 .content h2.title,
