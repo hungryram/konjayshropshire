@@ -38,3 +38,5 @@ fields:
   config: {}
   template: seo
   label: SEO
+pages:
+- content/quotes-by-konjay/_index.md
