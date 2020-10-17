@@ -2,7 +2,12 @@
 label: Quotes
 hide_body: true
 fields:
-- name: quote
+- name: heading
+  type: text
+  config:
+    required: false
+  label: Heading
+- name: body
   type: textarea
   default: ''
   config:
@@ -10,4 +15,26 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Quote
+  label: Body
+- name: quotes
+  type: field_group_list
+  fields:
+  - name: quotes
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Quotes
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Quotes
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
