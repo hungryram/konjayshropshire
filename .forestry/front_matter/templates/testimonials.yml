@@ -2,12 +2,12 @@
 label: Testimonials
 hide_body: true
 fields:
-- name: title
+- name: heading
   type: text
   config:
     required: false
-  label: Name
-- name: testimonial
+  label: Heading
+- name: body
   type: textarea
   default: ''
   config:
@@ -15,4 +15,31 @@ fields:
     wysiwyg: false
     schema:
       format: markdown
-  label: Testimonial
+  label: Body
+- name: testimonials
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: testimonials
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Testimonials
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Testimonials
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
