@@ -1,5 +1,5 @@
 +++
-photo = "/uploads/imagelogoheadshot.png"
+photo = "/v1602232206/konjay_adrt3o.png"
 title = "Konjay Shropshire"
 [menu.main]
 name = "Home"
