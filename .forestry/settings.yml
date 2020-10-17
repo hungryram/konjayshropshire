@@ -40,6 +40,14 @@ sections:
   path: content/about/_index.md
   label: About
 - type: document
+  path: content/quotes-by-konjay/_index.md
+  label: Quotes
+  match: "**/*"
+- type: document
+  path: content/testimonials/_index.md
+  label: Testimonials
+  match: "**/*"
+- type: document
   path: content/contact/_index.md
   label: Contact
 upload_dir: ''
