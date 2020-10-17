@@ -2,25 +2,13 @@ baseURL = "https://winningwithkonjay.com/"
 languageCode = "en-us"
 summaryLength = 25
 [[menu.main]]
+name = "Beats by Konjay"
+parent = "Resources"
+weight = 6
+[[menu.main]]
 name = "Journals"
 parent = "Shop"
 weight = 3
-[[menu.main]]
-name = "Candles & Oils"
-parent = "Shop"
-weight = 2
-[[menu.main]]
-name = "Apparel"
-parent = "Shop"
-weight = 1
-[[menu.main]]
-name = "Beats by Konjay"
-parent = "Resources"
-weight = 5
-[[menu.main]]
-name = "Success Stories"
-parent = "Resources"
-weight = 4
 [[menu.main]]
 name = "Informational Material"
 parent = "Resources"
@@ -30,15 +18,17 @@ name = "E-books"
 parent = "Resources"
 weight = 2
 [[menu.main]]
+name = "Candles & Oils"
+parent = "Shop"
+weight = 2
+[[menu.main]]
+name = "Apparel"
+parent = "Shop"
+weight = 1
+[[menu.main]]
 name = "E-courses"
 parent = "Resources"
 weight = 1
-[[menu.main]]
-name = "Contact"
-weight = 7
-[[menu.main]]
-name = "About"
-weight = 2
 [[menu.main]]
 name = "Shop"
 weight = 6

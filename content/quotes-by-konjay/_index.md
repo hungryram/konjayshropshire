@@ -1,9 +1,12 @@
 +++
 body = "Motivational quotes for your daily boost."
 heading = "Quotes by Konjay"
-title = "Quotes by Konjay"
 meta_description = ""
+title = "Quotes by Konjay"
 title_tag = ""
+[menu.main]
+parent = "Resources"
+weight = 5
 [[quotes]]
 quotes = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea unde quam nesciunt saepe. Magnam possimus, illum ex reiciendis magni officiis aliquid culpa exercitationem doloribus ipsum unde, tempore iusto commodi veritatis?"
 [[quotes]]
