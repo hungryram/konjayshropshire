@@ -2,9 +2,9 @@
 <div class="section">
     <div class="container">
         <div class="columns">
-            <div class="column is-9 content">
+            <div class="column content">
                 <div class="columns is-variable is-8">
-                    <div class="column">
+                    <div class="column has-text-centered">
                         <img src="{{ .Site.Params.cloudinary_url }}{{ .Params.photo }}" alt="{{ .Title }}">
                     </div>
                     <div class="column">
@@ -62,9 +62,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="column">
-                {{ partial "templates/sidebar" . }}
             </div>
         </div>
     </div>

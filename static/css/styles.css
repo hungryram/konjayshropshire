@@ -65,7 +65,7 @@ body h3.subtitle,
 body h4.subtitle,
 body h5.subtitle,
 body h6.subtitle {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: rgba(0,0,0,1);
     line-height: 1.2;
     letter-spacing: 0em;
@@ -149,7 +149,8 @@ div.navbar-dropdown {
     border-top: none;
 }
 
-a.navbar-item {
+a.navbar-item,
+a.navbar-link {
     transition: .3s ease;
     font-family: 'Abhaya Libre', serif;
     font-weight:400;
@@ -159,6 +160,14 @@ a.navbar-item {
 .navbar-link.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, a.navbar-item.is-active, a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover {
     color: #BB7575!important;
     transition: .3s ease;
+}
+
+.navbar-dropdown {
+    display: none;
+}
+
+.navbar-dropdown.is-active {
+    display: block;
 }
 
 /* HERO */
