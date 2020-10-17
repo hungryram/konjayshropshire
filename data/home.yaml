@@ -44,7 +44,7 @@ background_image_text:
   heading: Winning With Konjay Podcast
   body: ''
   link: "/quotes-by-konjay"
-  link_text: ''
+  link_text: View the Podcast
 menu:
   main:
     name: Home
