@@ -1,6 +1,7 @@
 +++
 body = "Motivational quotes for your daily boost."
 heading = "Quotes by Konjay"
+title = "Quotes by Konjay"
 meta_description = ""
 title_tag = ""
 [[quotes]]

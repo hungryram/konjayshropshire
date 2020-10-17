@@ -3,6 +3,7 @@ body = "View our trusted testimonials from our community"
 heading = "Winning Testimonials"
 meta_description = ""
 title_tag = ""
+title = "Winning Testimonials with Konjay"
 [[testimonials]]
 name = "John Smith"
 testimonials = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea unde quam nesciunt saepe. Magnam possimus, illum ex reiciendis magni officiis aliquid culpa exercitationem doloribus ipsum unde, tempore iusto commodi veritatis?"
