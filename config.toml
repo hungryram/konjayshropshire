@@ -2,6 +2,10 @@ baseURL = "https://winningwithkonjay.com/"
 languageCode = "en-us"
 summaryLength = 25
 [[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+[[menu.main]]
 name = "Beats by Konjay"
 parent = "Resources"
 weight = 6
