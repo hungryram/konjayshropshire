@@ -2,10 +2,6 @@ baseURL = "https://winningwithkonjay.com/"
 languageCode = "en-us"
 summaryLength = 25
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-[[menu.main]]
 name = "Beats by Konjay"
 parent = "Resources"
 weight = 6
@@ -14,7 +10,7 @@ name = "Journals"
 parent = "Shop"
 weight = 3
 [[menu.main]]
-name = "Informational Material"
+name = "Freebies"
 parent = "Resources"
 weight = 3
 [[menu.main]]
@@ -26,12 +22,16 @@ name = "Candles & Oils"
 parent = "Shop"
 weight = 2
 [[menu.main]]
+name = "E-courses"
+parent = "Resources"
+weight = 1
+[[menu.main]]
 name = "Apparel"
 parent = "Shop"
 weight = 1
 [[menu.main]]
-name = "E-courses"
-parent = "Resources"
+name = "Home"
+url = "/"
 weight = 1
 [[menu.main]]
 name = "Shop"
