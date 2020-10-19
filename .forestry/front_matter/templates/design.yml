@@ -99,4 +99,5 @@ fields:
     label: Top Bar Text
   label: Header
 pages:
+- content/shop.md
 - data/design.yaml
