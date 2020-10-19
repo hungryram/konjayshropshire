@@ -1,12 +1,12 @@
 +++
 alt_tag = ""
-author = []
+author = "author/konjay-shropshire.md"
 categories = []
 date = ""
-featured_image = ""
+featured_image = "/v1603144514/Logo_For_Website_6_ciza4t.png"
 meta_description = ""
 tags = []
-title = "Shop"
+title = ""
 title_tag = ""
 [branding]
 favicon = ""
@@ -32,8 +32,6 @@ logo = "/v1602231060/winningwithkonjaylogonew_ijwbqk.png"
 logo_width = nil
 
 +++
-![](/v1603144514/Logo_For_Website_6_ciza4t.png)
-
 # Welcome to the Shop!
 
 Any goodies that you want to get, we got them here!
