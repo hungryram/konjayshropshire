@@ -3,6 +3,7 @@ alt_tag = ""
 author = "author/konjay-shropshire.md"
 categories = []
 date = ""
+draft = true
 featured_image = "/v1603144514/Logo_For_Website_6_ciza4t.png"
 meta_description = ""
 tags = []
