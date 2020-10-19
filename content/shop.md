@@ -20,7 +20,7 @@ background_image = "/v1603144514/Logo_For_Website_6_ciza4t.png"
 body_text = "Anything to help with your success, in any aspect, we got it!"
 enable_coming_soon = false
 heading = "Welcome to The Shop"
-logo = ""
+logo = "/v1602231060/winningwithkonjaylogonew_ijwbqk.png"
 logo_width = nil
 
 +++
