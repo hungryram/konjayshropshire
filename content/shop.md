@@ -1,5 +1,7 @@
 +++
 title = "Shop"
+[menu.main]
+weight = 6
 [search_engine_optimization]
 meta_description = ""
 title_tag = ""

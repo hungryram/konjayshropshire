@@ -34,9 +34,6 @@ name = "Home"
 url = "/"
 weight = 1
 [[menu.main]]
-name = "Shop"
-weight = 6
-[[menu.main]]
 name = "Blog"
 url = "/blog"
 weight = 3
