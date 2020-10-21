@@ -12,7 +12,7 @@ sidebar:
 header:
   top_bar_text: ''
 under_construction_page:
-  enable_coming_soon: false
+  enable_coming_soon: true
   heading: Website Coming Soon!
   body_text: Check back December 3rd for our launched website!
   background_image: "/v1602231993/main3_yxvvmm.jpg"
