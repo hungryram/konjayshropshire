@@ -51,3 +51,5 @@ fields:
   config: {}
   template: seo
   label: Search Engine Optimization
+pages:
+- content/podcast/what-is-a-podcast.md
