@@ -4,10 +4,10 @@ author = "author/konjay-shropshire.md"
 categories = []
 date = ""
 featured_image = "/v1602233384/buddhawithcandles_dzg4i7.jpg"
-meta_description = "rtyrty"
+meta_description = ""
 tags = ["what is non reaction?", "How to effectively use non reaction", "best uses of mediation ", "how to meditate for beginners ", "beginner mediation practices"]
 title = "Practicing the Art of Non-Reaction with Meditation"
-title_tag = "Accessibility - Wallstreet Realty"
+title_tag = ""
 
 +++
 Non-reaction is a practice that can benefit you and the people around you in numerous ways. Using deep breathing and meditation, you can learn to respond effectively to the stresses in your life instead of overreacting to them.
