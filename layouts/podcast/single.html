@@ -12,9 +12,9 @@
                   </li>
                   {{ end }}
                 </ul>
-                <img src="{{ .Site.Params.cloudinary_url }}{{ .Params.featured_image }}" alt="{{ .Params.alt_tag }}" class="mb-6">
+                {{ .Params.podcast_embed | safeHTML }}
                 {{ .Content }}
-                {{ partial "templates/share" . }}
+                {{ partial "templates/share-podcast" . }}
                 <div class="columns mt-6">
                     <div class="column">
                         {{ if .Params.author }}
