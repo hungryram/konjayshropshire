@@ -38,6 +38,13 @@ sections:
   - blog
 - type: heading
   label: Default Pages
+- type: directory
+  path: content/podcast
+  label: Podcast
+  create: documents
+  match: "**/*"
+  templates:
+  - podcast
 - type: document
   path: content/about/_index.md
   label: About
