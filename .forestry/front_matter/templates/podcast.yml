@@ -6,7 +6,7 @@ fields:
   type: text
   config:
     required: false
-  label: Blog Title
+  label: Title
 - name: author
   type: select
   default: []
