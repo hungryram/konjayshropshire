@@ -9,7 +9,7 @@ sections:
   label: Profile
 - type: document
   path: data/design.yaml
-  label: Design
+  label: Appearance
 - type: document
   path: data/home.yaml
   label: Home Content
