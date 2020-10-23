@@ -29,11 +29,11 @@ body h2.cursive {
 
 a.primary-btn {
     background: #BB7575;
-    padding: 15px 35px;
+    padding: 15px;
     color: #fff;
     font-family: 'Abhaya Libre', serif;
     font-weight: 500;
-    font-size: 18pt;
+    font-size: 16pt;
 }
 
 a.secondary-btn {
@@ -43,7 +43,7 @@ a.secondary-btn {
     color: #000;
     font-family: 'Abhaya Libre', serif;
     font-weight: 500;
-    font-size: 18pt;
+    font-size: 16pt;
 }
 
 input.input,
@@ -179,7 +179,7 @@ a.navbar-link {
 /* HERO */
 
 div.hero-container {
-    background: rgba(241, 241, 241, 0.5);
+    background: #fff;
     padding: 20px;
 }
 
@@ -249,6 +249,10 @@ div.inner-column {
 div.inner-column .cursive {
     background: rgba(255,255,255,0.5);
     padding: 50px 10px;
+}
+
+.column-heading.subtitle.is-4 {
+    font-family: 'Abhaya Libre', serif;
 }
 
 /* FOOTER */
