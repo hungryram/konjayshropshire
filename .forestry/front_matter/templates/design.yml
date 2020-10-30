@@ -112,5 +112,15 @@ fields:
         format: markdown
     label: Footer Bio
   label: Footer
+- name: pages
+  type: field_group
+  config: {}
+  fields:
+  - name: background_image
+    type: file
+    config:
+      maxSize: 2
+    label: Background Image
+  label: Pages
 pages:
 - data/design.yaml
