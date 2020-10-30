@@ -7,9 +7,6 @@
     <div class="columns">
       <div class="column">
         <h2 class="title cursive is-1 mb-0 has-text-white has-text-weight-normal">Winning With Konjay</h2>
-        {{ if $footerDesign.footer_bio }}
-          <p class="pb-6 is-size-6 has-text-white">{{ $footerDesign.footer_bio }}</p>
-        {{ end }}
       </div>
       <div class="column">
         <h4 class="subtitle is-6 has-text-white">Quick Links</h4>
@@ -23,7 +20,7 @@
       <div class="column">
         <h4 class="subtitle is-6 has-text-white">Latest Posts</h4>
         <ul>
-          {{ range  first 5 ( where $.Site.RegularPages "Type" "blog") }}
+          {{ range  first 3 ( where $.Site.RegularPages "Type" "blog") }}
           <li><a href="{{ .Permalink }}" class="has-text-white">{{ .Title }}</a></li>
           {{end}}
           </ul>

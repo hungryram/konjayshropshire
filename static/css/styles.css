@@ -7,6 +7,7 @@
     font-family: wildspirit;
     src: url("/fonts/WildSpirit.woff2");
   }
+
 /* GLOBAL */
 
 div.notification {
@@ -25,6 +26,10 @@ body h1.cursive,
 body h2.cursive {
     font-family: wildspirit;
     color: #DBAEAE;
+}
+
+.primary-color {
+    color: #f16397;
 }
 
 a.primary-btn {
@@ -253,6 +258,14 @@ div.inner-column .cursive {
 
 .column-heading.subtitle.is-4 {
     font-family: 'Abhaya Libre', serif;
+}
+
+
+/* PODCAST */
+
+.blog-image-container iframe,
+.blog-container iframe {
+    width: 100%;
 }
 
 /* FOOTER */
