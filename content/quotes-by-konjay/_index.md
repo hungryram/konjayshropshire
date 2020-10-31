@@ -8,11 +8,9 @@ title_tag = ""
 parent = "Resources"
 weight = 5
 [[quotes]]
-quotes = "##### \"It's more important to know everything successful people don't do than everything they do...\""
+quotes = "\"Bad Habits are Serial Killers\""
 [[quotes]]
-quotes = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea unde quam nesciunt saepe. Magnam possimus, illum ex reiciendis mag"
-[[quotes]]
-quotes = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea unde quam nesciunt saepe. Magnam possimus, illum ex reiciendis magni officiis aliquid culpa exercitationem doloribus ipsum unde, tempore iusto commodi veritatis?"
+quotes = "\"It's more important to know everything successful people don't do than everything they do\""
 [[quotes]]
 quotes = "Lorem ipsum dolor sit amagni officiis aliquid culpa exercitationem doloribus ipsum unde, tempore iusto commodi veritatis?"
 [[quotes]]
