@@ -6,7 +6,7 @@ title = "Quotes by Konjay"
 title_tag = ""
 [menu.main]
 parent = "Resources"
-weight = 1
+weight = 4
 [[quotes]]
 quotes = "You experience Healing once you stop believing in illness.\n\nYou experience Success, once you stop believing in failure.\n\nYou experience Wins, once you stop believing in defeat.\n\nYou experience Prosperity, once you stop believing in lack.\n\nYou experience Power, once you stop believing in limitation."
 [[quotes]]
