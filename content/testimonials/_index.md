@@ -1,5 +1,5 @@
 +++
-body = ""
+body = "Get inspired and motivated from these other Winners!"
 heading = "Winning Testimonials and Success Stories"
 meta_description = ""
 title = "Winning Testimonials with Konjay"
