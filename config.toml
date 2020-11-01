@@ -2,7 +2,7 @@ baseURL = "https://winningwithkonjay.com/"
 languageCode = "en-us"
 summaryLength = 25
 [[menu.main]]
-name = "Motivational Downloads"
+name = "Freebies"
 parent = "Resources"
 weight = 3
 [[menu.main]]
