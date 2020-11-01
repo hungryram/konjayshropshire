@@ -28,6 +28,11 @@ fields:
       schema:
         format: markdown
     label: Quotes
+  - name: image
+    type: file
+    config:
+      maxSize: 2
+    label: Image
   config:
     min: 
     max: 
