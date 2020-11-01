@@ -8,7 +8,7 @@ title_tag = ""
 parent = "Resources"
 weight = 5
 [[quotes]]
-quotes = "**Bad Habits are Serial Killers**"
+quotes = "Bad Habits are Serial Killers"
 [[quotes]]
 quotes = "It's more important to know everything successful people don't do than everything they do."
 [[quotes]]
