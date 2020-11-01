@@ -12,7 +12,7 @@ quotes = "##### You experience Healing once you stop believing in illness.\n\n##
 [[quotes]]
 quotes = "##### Kindness is a superpower."
 [[quotes]]
-quotes = "Success is a timely process; and quitting only slows it down."
+quotes = "##### Success is a timely process; and quitting only slows it down."
 [[quotes]]
 quotes = "The Holy Grail is not out there; it's inside you."
 [[quotes]]
