@@ -12,7 +12,7 @@ quotes = "Success is a timely process; and quitting only slows it down."
 [[quotes]]
 quotes = "The Holy Grail is Not Out There; It's Inside of You."
 [[quotes]]
-quotes = "Test Quote"
+quotes = "Your response to the event; it's more important than the event."
 [[quotes]]
 quotes = "It is  more important to know everything successful people don't do;  than knowing everything they do."
 [[quotes]]
