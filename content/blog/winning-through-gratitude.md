@@ -1,6 +1,6 @@
 +++
 alt_tag = ""
-author = []
+author = "author/konjay-shropshire.md"
 categories = []
 date = ""
 draft = true
