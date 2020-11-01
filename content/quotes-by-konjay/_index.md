@@ -8,6 +8,8 @@ title_tag = ""
 parent = "Resources"
 weight = 5
 [[quotes]]
+quotes = "The Holy Grail is Not Out There; It's Inside of You."
+[[quotes]]
 quotes = "Test Quote"
 [[quotes]]
 quotes = "It's more important to know everything successful people don't do than everything they do."
