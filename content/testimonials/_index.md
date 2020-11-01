@@ -7,7 +7,7 @@ title_tag = ""
 [menu.main]
 name = "Success Stories"
 parent = "Resources"
-weight = 3
+weight = 2
 [[testimonials]]
 name = "John Smith"
 testimonials = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea unde quam nesciunt saepe. Magnam possimus, illum ex reiciendis magni officiis aliquid culpa exercitationem doloribus ipsum unde, tempore iusto commodi veritatis?"

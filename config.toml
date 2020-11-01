@@ -2,9 +2,13 @@ baseURL = "https://winningwithkonjay.com/"
 languageCode = "en-us"
 summaryLength = 25
 [[menu.main]]
+name = "5 Day Challenges"
+parent = "Resources"
+weight = 6
+[[menu.main]]
 name = "E-books"
 parent = "Resources"
-weight = 1
+weight = 3
 [[menu.main]]
 name = "Beats by Konjay"
 parent = "Resources"
@@ -12,7 +16,7 @@ weight = 5
 [[menu.main]]
 name = "Freebies"
 parent = "Resources"
-weight = 2
+weight = 4
 [[menu.main]]
 name = "Home"
 url = "/"
