@@ -1,6 +1,6 @@
 +++
-body = "View our trusted testimonials from our community"
-heading = "Winning Testimonials"
+body = ""
+heading = "Winning Testimonials and Success Stories"
 meta_description = ""
 title = "Winning Testimonials with Konjay"
 title_tag = ""
