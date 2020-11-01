@@ -14,7 +14,7 @@ quotes = "Kindness is a superpower."
 [[quotes]]
 quotes = "Success is a timely process; and quitting only slows it down."
 [[quotes]]
-quotes = "The Holy Grail is not out there; it's inside you."
+quotes = "The Holy Grail is not out there. The Holy Grail is inside you."
 [[quotes]]
 quotes = "Your response to the event is more important than the actual event."
 [[quotes]]
