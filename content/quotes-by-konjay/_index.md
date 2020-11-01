@@ -10,7 +10,7 @@ weight = 5
 [[quotes]]
 quotes = "You experience Healing once you stop believing in illness.\n\nYou experience Success, once you stop believing in failure.\n\nYou experience Wins, once you stop believing in defeat.\n\nYou experience Prosperity, once you stop believing in lack.\n\nYou experience Power, once you stop believing in limitation."
 [[quotes]]
-quotes = "##### Kindness is a superpower."
+quotes = "Kindness is a superpower."
 [[quotes]]
 quotes = "##### Success is a timely process; and quitting only slows it down."
 [[quotes]]
