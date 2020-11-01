@@ -8,6 +8,8 @@ title_tag = ""
 parent = "Resources"
 weight = 5
 [[quotes]]
+quotes = "Success is a timely process; and quitting only slows it down."
+[[quotes]]
 quotes = "The Holy Grail is Not Out There; It's Inside of You."
 [[quotes]]
 quotes = "Test Quote"
