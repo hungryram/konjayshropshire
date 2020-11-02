@@ -2,23 +2,27 @@
 {{ $footerLocation := .Site.Data.profile.location_information }}
 {{ $footerDesign := .Site.Data.design.footer }}
 {{ $footerSocial := .Site.Data.profile.social_media }}
-<footer class="footer">
+{{ $footerDesign := .Site.Data.design.footer }}
+<footer class="footer"style="{{ safeHTMLAttr (printf "background-color: %s" $footerDesign.background_color) }}">
   <div class="container">
     <div class="columns">
       <div class="column">
-        <h2 class="title cursive is-1 mb-0 has-text-white has-text-weight-normal">Winning With Konjay</h2>
+        {{ if $footerDesign.use_logo }}
+        <img src="{{ $footerDesign.footer_logo }}" alt="{{ .Site.Data.design.website_title }}">
+        {{ else }}
+        <h2 class="title cursive is-1 mb-0 has-text-white has-text-weight-normal">{{ $footerDesign.site_title }}</h2>
+        {{ end }}
       </div>
       <div class="column">
-        <h4 class="subtitle is-6 has-text-white">Quick Links</h4>
+        <h4 class="subtitle is-6 has-text-white">{{ $footerDesign.column_one.heading }}</h4>
         <ul>
-          <li><a href="" class="has-text-white">Home</a></li>
-          <li><a href="" class="has-text-white">Winning with Konjay Podcast</a></li>
-          <li><a href="" class="has-text-white">Blog</a></li>
-          <li><a href="" class="has-text-white">Quotes by Konjay</a></li>
+          {{ range $footerDesign.column_one.links }}
+            <li><a href="{{ .link }}" class="has-text-white">{{ .link_text }}</a></li>
+          {{ end }}
         </ul>
       </div>
       <div class="column">
-        <h4 class="subtitle is-6 has-text-white">Latest Posts</h4>
+        <h4 class="subtitle is-6 has-text-white">{{ $footerDesign.column_two.heading }}</h4>
         <ul>
           {{ range  first 3 ( where $.Site.RegularPages "Type" "blog") }}
           <li><a href="{{ .Permalink }}" class="has-text-white">{{ .Title }}</a></li>
@@ -27,7 +31,7 @@
 
       </div>
       <div class="column">
-        <h4 class="subtitle is-6 has-text-white">Let's Connect</h4>
+        <h4 class="subtitle is-6 has-text-white">{{ $footerDesign.column_three.heading }}</h4>
 
         <ul class="footer-social">
           {{ if $footerSocial.facebook }}<li><a href="{{ $footerSocial.facebook }}" target="_blank">
@@ -80,13 +84,13 @@
     </div>
     <div class="columns mb-0">
       <div class="column has-text-centered">
-        <a href="/privacy-policy" class="is-size-7 has-text-black">Privacy Policy</a>
-        <a href="/privacy-policy" class="is-size-7 has-text-black">Terms and Conditions</a>
+        <a href="/privacy-policy" class="is-size-7 has-text-white">Privacy Policy - </a>
+        <a href="/privacy-policy" class="is-size-7 has-text-white">Terms and Conditions</a>
       </div>
     </div>
     <div class="columns">
       <div class="column has-text-centered">
-        <small class="is-size-7 has-text-black">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.website_title }} &middot; <a href="https://hungryram.com" target="_blank" class="has-text-black">Website Developed by Hungry Ram</a></small>
+        <small class="is-size-7 has-text-white">&copy; Copyright {{ dateFormat "2006" now }}, {{ .Site.Data.profile.website_title }} &middot; <a href="https://hungryram.com" target="_blank" class="has-text-white">Website Developed by Hungry Ram</a></small>
 
       </div>
     </div>
