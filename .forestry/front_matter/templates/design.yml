@@ -102,15 +102,65 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: footer_bio
-    type: textarea
-    default: ''
+  - name: footer_logo
+    type: file
+    config:
+      maxSize: 64
+    label: Footer Logo
+  - name: background_color
+    type: color
+    label: Background Color
     config:
       required: false
-      wysiwyg: false
-      schema:
-        format: markdown
-    label: Footer Bio
+      color_format: Hex
+  - name: column_one
+    type: field_group
+    config: {}
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    - name: links
+      type: field_group_list
+      fields:
+      - name: link_text
+        type: text
+        config:
+          required: false
+        label: Link Text
+      - name: link
+        type: text
+        config:
+          required: false
+        label: Link
+      config:
+        min: 
+        max: 
+        labelField: 
+      label: Links
+    label: Column One
+  - name: column_two
+    type: field_group
+    config: {}
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    label: Column Two
+  - name: column_three
+    type: field_group
+    config: {}
+    fields:
+    - name: heading
+      type: text
+      config:
+        required: false
+      label: Heading
+    label: Column Three
   label: Footer
 - name: pages
   type: field_group
