@@ -102,11 +102,19 @@ fields:
   type: field_group
   config: {}
   fields:
+  - name: use_logo
+    type: boolean
+    label: Use Logo
   - name: footer_logo
     type: file
     config:
       maxSize: 64
     label: Footer Logo
+  - name: site_title
+    type: text
+    config:
+      required: false
+    label: Site Title
   - name: background_color
     type: color
     label: Background Color
