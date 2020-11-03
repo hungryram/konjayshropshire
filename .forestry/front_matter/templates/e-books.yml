@@ -39,3 +39,5 @@ fields:
     max: 
     labelField: 
   label: E-books
+pages:
+- content/e-books/_index.md
