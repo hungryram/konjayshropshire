@@ -21,14 +21,12 @@ under_construction_page:
 footer:
   footer_bio: ''
   footer_logo: ''
-  background_color: "#3A3A3A"
+  background_color: "#000000"
   column_one:
     heading: Links
     links:
     - link_text: Home
       link: https://winningwithkonjay.com
-    - link_text: Podcast
-      link: https://winningwithkonjay.com/podcast/
     - link_text: Blog
       link: https://www.winningwithkonjay.com/blog/
     - link_text: Success Stories
@@ -38,6 +36,6 @@ footer:
   column_three:
     heading: Connect on Social
   use_logo: false
-  site_title: Winning with Konjay
+  site_title: ''
 pages:
   background_image: ''
