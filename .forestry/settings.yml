@@ -41,7 +41,6 @@ sections:
 - type: document
   path: content/beats-by-konjay.md
   label: Beats
-  match: "**/*"
 - type: directory
   path: content/podcast
   label: Podcast
