@@ -1,6 +1,9 @@
 +++
 body_text = "View list of e-books"
 title = "E-books"
+[menu.main]
+parent = "Resources"
+weight = 2
 [[ebooks]]
 heading = "Book 1"
 image = "/v1602964499/bossconfessions_2_fyfrsl.jpg"

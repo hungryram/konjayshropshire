@@ -6,10 +6,6 @@ name = "Freebies"
 parent = "Resources"
 weight = 3
 [[menu.main]]
-name = "E-books"
-parent = "Resources"
-weight = 2
-[[menu.main]]
 name = "5 Day Challenges"
 parent = "Resources"
 weight = 1
