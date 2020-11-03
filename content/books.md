@@ -1,7 +1,0 @@
-+++
-title = "E-Books"
-[search_engine_optimization]
-meta_description = ""
-title_tag = ""
-
-+++
