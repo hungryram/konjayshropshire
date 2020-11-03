@@ -23,9 +23,9 @@ footer:
   footer_logo: ''
   background_color: "#000000"
   column_one:
-    heading: Blog
+    heading: Helpful Resources
     links:
-    - link_text: Blog Title
+    - link_text: Ebbok
       link: ''
     - link_text: Blog Title
       link: ''
