@@ -39,5 +39,10 @@ fields:
     max: 
     labelField: 
   label: E-books
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - content/e-books/_index.md
