@@ -39,3 +39,8 @@ fields:
     max: 
     labelField: 
   label: Beats
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
