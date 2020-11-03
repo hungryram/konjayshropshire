@@ -1,6 +1,9 @@
 +++
 body_text = "Listen to beats by Konjay updated weekly."
 title = "Beats by Konjay"
+[menu.main]
+parent = "Resources"
+weight = 6
 [search_engine_optimization]
 meta_description = ""
 title_tag = ""
