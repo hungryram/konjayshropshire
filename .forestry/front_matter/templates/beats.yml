@@ -39,3 +39,5 @@ fields:
     max: 
     labelField: 
   label: Beats
+pages:
+- content/beats-by-konjay.md
