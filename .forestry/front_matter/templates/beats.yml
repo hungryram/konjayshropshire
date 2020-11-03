@@ -16,3 +16,26 @@ fields:
     schema:
       format: markdown
   label: Body Text
+- name: beats
+  type: field_group_list
+  fields:
+  - name: heading
+    type: text
+    config:
+      required: false
+    label: Heading
+  - name: image
+    type: file
+    config:
+      maxSize: 2
+    label: Image
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Beats
