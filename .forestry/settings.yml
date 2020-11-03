@@ -39,7 +39,11 @@ sections:
 - type: heading
   label: Default Pages
 - type: document
-  path: content/beats-by-konjay.md
+  path: content/e-books/_index.md
+  label: E-Books
+  match: "**/*"
+- type: document
+  path: content/beats-by-konjay/_index.md
   label: Beats
 - type: directory
   path: content/podcast
