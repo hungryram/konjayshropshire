@@ -23,14 +23,14 @@ footer:
   footer_logo: ''
   background_color: "#000000"
   column_one:
-    heading: Helpful Resources
+    heading: Winning Tools
     links:
     - link_text: Ebook
       link: ''
-    - link_text: Blog Title
+    - link_text: 60 Second Meditation
       link: ''
-    - link_text: Blog Title
-      link: https://www.winningwithkonjay.com/blog/
+    - link_text: Manifestation Journal
+      link: ''
     - link_text: Blog Title
       link: ''
   column_two:
