@@ -39,10 +39,6 @@ sections:
 - type: heading
   label: Default Pages
 - type: document
-  path: content/e-books/_index.md
-  label: E-Books
-  match: "**/*"
-- type: document
   path: content/beats-by-konjay/_index.md
   label: Beats
 - type: directory
@@ -64,6 +60,9 @@ sections:
 - type: document
   path: content/contact/_index.md
   label: Contact
+- type: document
+  path: content/e-books/_index.md
+  label: E-Books
 upload_dir: ''
 public_path: ''
 front_matter_path: ''
