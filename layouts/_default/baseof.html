@@ -5,7 +5,7 @@
         <div class="container">
             <div class="columns">
                 <div class="column has-text-centered">
-                    <h1 class="title is-2 is-size-4-mobile has-text-white is-uppercase has-text-weight-normal">{{ if in .Permalink "podcast" }}Winning with Konjay Podcast{{ else }}{{ .Title }}{{ end }}</h1>
+                    <h1 class="title is-2 is-size-4-mobile has-text-white is-uppercase has-text-weight-normal">{{ if in .Permalink "podcast" }}Winning with Konjay Podcast{{ else }}{{ replace .Name "-" " " | title }}{{ end }}</h1>
                 </div>
             </div>
         </div>
